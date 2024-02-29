@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-auto lg:mb-0">
       <button
-          onClick={() => setGeneral(getRandomInteger(0, 27))}
+          onClick={() => setGeneral(getRandomInteger(0, 30))}
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors mt-4 border-gray-600 hover:border-gray-300 hover:bg-gray-200 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
